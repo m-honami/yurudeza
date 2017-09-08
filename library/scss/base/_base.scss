@@ -1,0 +1,32 @@
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #333;
+  background-color: #efeded;
+  -webkit-font-smoothing: antialiased; }
+
+
+.wrap {
+  margin: 0 auto; }
+
+  a, a:visited {
+  text-decoration: none;
+  color: #333;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */ }
+  a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #d10e3c; }
+  a:link, a:visited:link {
+    /*
+    this highlights links on iPhones/iPads.
+    so it basically works like the :hover selector
+    for mobile devices.
+    */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+#inner-content {
+  padding: 1em 1em 0;
+}

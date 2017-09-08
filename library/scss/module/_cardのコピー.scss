@@ -1,0 +1,78 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+
+    &:hover {
+      background-color: #fefff2;
+    }
+
+  .card-link {
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+
+    .card-thumbnail {
+      width: 100%;
+    }
+    
+    .card-thumbnail img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .card-label {
+      position:  absolute;
+      top: -1px;
+      left: 0;
+    
+      .card-rabel-design {
+        padding: 1px 8px;
+        border: 1px;
+        color: #fff;
+      }
+
+      .design {
+        background-color: #ff2090;
+      }
+
+      .life {
+        background-color: #0096e3;
+      }
+
+      .trip {
+        background-color: #ffae00;
+      }
+
+      .monologue {
+        background-color: #00bba5;
+      }
+    
+    }
+  
+  
+  .card-design {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  padding: 0.1em;
+
+  }
+  
+  .card-title {
+    font-size: 1em;
+    padding: 0 0.2em;
+    min-height: 40px;
+  }
+  
+  .card-date {
+    text-align: right;
+    color: #ccc;
+    padding: 0.1em;
+  }
+  
+}

@@ -1,0 +1,22 @@
+.header {
+  background-color: #fff;
+  .header-logo {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 14px 10px 10px;
+    
+   .header-logo-img {
+     width: 95px;
+    }
+    
+  }
+  
+  .header-icon {
+    position: absolute;
+    top: 0.3em;
+    right: 0.3em;
+    padding: 10px;
+  }
+  
+}

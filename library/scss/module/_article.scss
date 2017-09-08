@@ -1,0 +1,85 @@
+.entry-content {
+  padding: 0.5em 1em;
+  background-color: #fff;
+
+  img {
+    margin: 0;
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  .size-auto,
+  .size-full,
+  .size-large,
+  .size-medium,
+  .size-thumbnail {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+}
+
+.article-inner {
+  padding: 1em 1em 0;
+  background-color: #fff;
+}
+
+.article-title {
+  background: #f7f7f7;
+  padding: 14px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.design {
+  
+  .article-title {
+    border-left: solid #ff2090 5px;
+  }
+  
+}
+
+.life {
+  
+  .article-title {
+    border-left: solid #0096e3 5px;
+  }
+  
+}
+
+.trip {
+
+  .article-title {
+    border-left: solid #ffae00 5px;
+  }
+  
+}
+
+.monologue {
+  
+  .article-title {
+    border-left: solid #00bba5 5px;
+  }
+  
+}
+
+.article-sub-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 28px 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-top: 1px solid #231815;
+  border-bottom: 1px solid #231815;
+  width: 100%;
+}
+
+.article-footer {
+  color: #009bd8;
+  
+  a {
+    color: #009bd8;
+  }
+}
