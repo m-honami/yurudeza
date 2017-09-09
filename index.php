@@ -13,10 +13,10 @@
                 </h2>
                 <div class="card-container l-harf">
                   <div class="card">
-                    <a href="http://yurudeza.com/2017/09/05/about-design/" class="card-anchor">
+                    <a href="#" class="card-anchor">
                       <article class="card-design">
                         <figure>
-                          <img src="http://creator.dwango.co.jp/wp-content/uploads/2017/02/top-1.jpg" alt="" class="card-thumbnail">
+                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample4.jpg" alt="" class="card-thumbnail">
                           <div class="card-label design">
                             <span class="card-label-design">デザイン</span>
                           </div>
@@ -26,10 +26,10 @@
                     </a>
                   </div>
                   <div class="card">
-                    <a href="http://yurudeza.com/2017/09/05/about-life/" class="card-anchor">
+                    <a href="#" class="card-anchor">
                       <article class="card-design">
                         <figure>
-                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="card-thumbnail">
+                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample2.jpg" alt="" class="card-thumbnail">
                           <div class="card-label life">
                             <span class="card-label-design">暮らし</span>
                           </div>
@@ -39,10 +39,10 @@
                     </a>
                   </div>
                   <div class="card">
-                    <a href="http://yurudeza.com/2017/09/04/about-trip/" class="card-anchor">
+                    <a href="#" class="card-anchor">
                       <article class="card-design">
                         <figure>
-                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="card-thumbnail">
+                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample3.jpg" alt="" class="card-thumbnail">
                           <div class="card-label trip">
                             <span class="card-label-design">旅行</span>
                           </div>
@@ -52,10 +52,10 @@
                     </a>
                   </div>
                   <div class="card">
-                    <a href="http://yurudeza.com/2017/09/05/about-monologue/" class="card-anchor">
+                    <a href="#" class="card-anchor">
                       <article class="card-design">
                         <figure>
-                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="card-thumbnail">
+                          <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample5.jpg" alt="" class="card-thumbnail">
                           <div class="card-label monologue">
                             <span class="card-label-design monologue">ひとりごと</span>
                           </div>
@@ -69,7 +69,7 @@
                   <article class="article">
                     <a class="design" href="#">
                       <figure class="thumbBox">
-                        <img src="http://creator.dwango.co.jp/wp-content/uploads/2017/02/top-1.jpg" alt="" class="thumbImg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="thumbImg">
                         <div class="thumbLabel">
                           <span class="labelName">デザイン</span>
                         </div>
@@ -85,7 +85,7 @@
                   <article class="article">
                     <a class="life">
                       <figure class="thumbBox">
-                        <img src="http://creator.dwango.co.jp/wp-content/uploads/2017/02/top-1.jpg" alt="" class="thumbImg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="thumbImg">
                         <div class="thumbLabel">
                           <span class="labelName">暮らし</span>
                         </div>
@@ -101,7 +101,7 @@
                   <article class="article">
                     <a class="trip">
                       <figure class="thumbBox">
-                        <img src="http://creator.dwango.co.jp/wp-content/uploads/2017/02/top-1.jpg" alt="" class="thumbImg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="thumbImg">
                         <div class="thumbLabel">
                           <span class="labelName">旅行</span>
                         </div>
@@ -117,7 +117,7 @@
                   <article class="article">
                     <a class="monologue">
                       <figure class="thumbBox">
-                        <img src="http://creator.dwango.co.jp/wp-content/uploads/2017/02/top-1.jpg" alt="" class="thumbImg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/library/images/sample.jpg" alt="" class="thumbImg">
                         <div class="thumbLabel">
                           <span class="labelName">ひとりごと</span>
                         </div>
